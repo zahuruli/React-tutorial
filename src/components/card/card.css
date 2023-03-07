@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    background-color: aqua;
+    display: inline-block;
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.card:hover {
+    box-shadow: 2px 4px 4px black;
+}
+.card-head {
+    background-color: aliceblue;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+.card-desc {
+    background-color: azure;
+    padding: 10px;
+}
+.card-footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

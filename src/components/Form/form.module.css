@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: rgb(228, 232, 224);
+    width: 350px;
+    margin: 0 auto;
+}
+form:hover {
+    box-shadow: 2px 4px 4px black;
+}
+
+.formDiv {
+    margin: 10px;
+}
+
+.formbtn {
+    text-align: center;
+    margin: 0 auto;
+}
+.btn {
+    width: 80px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn:hover {
+    box-shadow: 2px 4px 4px rgb(0, 0, 0);
+}

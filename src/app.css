@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(4, 209, 209);
+}
+
+.app-heading {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 8px;
+}

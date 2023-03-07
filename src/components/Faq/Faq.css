@@ -1,0 +1,35 @@
+.title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.faq {
+    background-color: #000000;
+    margin: 1rem 0;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+}
+.faq h3 {
+    color: #ffffff;
+}
+.faq p {
+    color: rgb(236, 231, 231);
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+}
+.upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: orangered;
+}
+
+.icon {
+    /* background-color: orange; */
+    color: orange;
+    font-size: 1.2rem;
+}

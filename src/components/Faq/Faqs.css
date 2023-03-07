@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.faqs {
+    background-color: #e0dcdc;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}

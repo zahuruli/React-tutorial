@@ -1,26 +1,29 @@
 import React from 'react';
-import { FaYoutube } from 'react-icons/fa';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import './app.css';
+import NavBar from './components/Navigetion/NavBar';
+import Blog from './Pages/Blog';
+import Blogs from './Pages/Blogs';
+import Contact from './Pages/Contact';
+import Error from './Pages/Error';
+import Home from './Pages/Home';
+import User from './Pages/User';
 
 const App = () => {
     return (
-        <div>
-            <header>
-                <h1>A template for React Project</h1>
-            </header>
-            <main>
-                <h1>Welcome to React</h1>
-            </main>
-            <footer>
-                <p className="left">
-                    Subscribe to my{' '}
-                    <a href="https://www.youtube.com/c/anisulislamrubel">
-                        <FaYoutube className="footer__icon" />
-                    </a>{' '}
-                    channel
-                </p>
-                <p className="right">Developed with &hearts; by Anisul Islam</p>
-            </footer>
-        </div>
+        <BrowserRouter>
+            <NavBar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/blogs" element={<Blogs />} />
+                <Route path="/blogs/:title" element={<Blog />} />
+                <Route path="/user" element={<User />} />
+
+                <Route path="*" element={<Error />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
 
